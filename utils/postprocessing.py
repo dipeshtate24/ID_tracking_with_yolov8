@@ -34,4 +34,5 @@ def map_tracking(results, frame):
                 cv2.polylines(frame, [points], isClosed=False, color =(230, 230, 230), thickness=5)
 
         return annoted_frame
+    
     return frame
