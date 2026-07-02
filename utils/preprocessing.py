@@ -26,3 +26,4 @@ def frame_preprocessing(frame, input_shape=640):
     img_BN = img_tensor.unsqueeze(0)
 
     return img_BN, original_frame
+    
